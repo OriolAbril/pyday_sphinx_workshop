@@ -4,3 +4,4 @@ myst-parser[linkify]>=2
 sphinx-copybutton
 sphinx-togglebutton
 sphinx-design
+sphinx-notfound-page

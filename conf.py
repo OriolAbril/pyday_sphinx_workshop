@@ -24,9 +24,13 @@ extensions = [
     "sphinx_design",
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
+    "notfound.extension",
 ]
 
 # Extension configuration ----------------------------
+## notfound extension -----------------
+notfound_urls_prefix = ""
+
 ## Myst parser ------------------------
 myst_enable_extensions = [
     "colon_fence",
@@ -46,7 +50,7 @@ html_theme = "sphinx_book_theme"
 html_logo = "images/portrait_placeholder.png"
 html_title = f"{author}'s website"
 html_theme_options = {
-    "repository_url": "https://github.com/OriolAbril/pyday_sphinx_workshop",
+    "repository_url": "https://github.com/OriolAbril/pyday_sphinx_repo",
     "repository_branch": "main",
     "home_page_in_toc": True,
     "use_edit_page_button": False,
