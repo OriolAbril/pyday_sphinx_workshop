@@ -18,4 +18,5 @@ and everything you learn setting your website will be useful when contributing t
 :hidden:
 
 about
+blog
 :::

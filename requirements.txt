@@ -5,3 +5,4 @@ sphinx-copybutton
 sphinx-togglebutton
 sphinx-design
 sphinx-notfound-page
+ablog>=0.11

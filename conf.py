@@ -25,6 +25,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
     "notfound.extension",
+    "ablog",
 ]
 
 # Extension configuration ----------------------------
@@ -38,6 +39,12 @@ myst_enable_extensions = [
     "linkify",
 ]
 myst_url_schemes = ["mailto", "http", "https"]
+
+## ablog ------------------------------
+blog_baseurl = "https://pyday.oriolabrilpla.cat"
+blog_path = "blog"
+post_show_prev_next = False
+fontawesome_included = True
 
 ## Intersphinx ------------------------
 intersphinx_mapping = {
@@ -73,6 +80,12 @@ html_theme_options = {
             "name": "Orcid",
             "url": "https://orcid.org/0000-0002-1847-9481",
             "icon": "fa-brands fa-orcid",
+            "type": "fontawesome",
+        },
+        {
+            "name": "Atom Feed",
+            "url": f"{blog_baseurl}/{blog_path}/atom.xml",
+            "icon": "fa-solid fa-rss",
             "type": "fontawesome",
         },
     ],
