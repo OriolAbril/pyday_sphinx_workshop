@@ -90,3 +90,26 @@ html_theme_options = {
         },
     ],
 }
+ablog_collections = ("author", "category", "tag")
+blog_sidebar = [
+    "navbar-logo.html",
+    "icon-links.html",
+    "sbt-sidebar-nav.html",
+    "ablog/categories.html",
+    "ablog/tagcloud.html",
+    "ablog/archives.html"
+]
+html_sidebars = {
+    "blog": blog_sidebar,
+    "blog/*": blog_sidebar,
+    **{f"blog/{collection}/**": blog_sidebar for collection in ablog_collections},
+    "blog/posts/**":  [
+        "navbar-logo.html",
+        "icon-links.html",
+        "sbt-sidebar-nav.html",
+        "ablog/postcard.html",
+        "ablog/categories.html",
+        "ablog/tagcloud.html",
+        "ablog/archives.html"
+    ],
+}
