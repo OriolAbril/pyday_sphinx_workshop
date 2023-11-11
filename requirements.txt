@@ -1,0 +1,6 @@
+sphinx>=6
+sphinx-book-theme
+myst-parser[linkify]>=2
+sphinx-copybutton
+sphinx-togglebutton
+sphinx-design
