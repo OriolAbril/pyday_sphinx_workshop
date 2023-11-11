@@ -20,7 +20,7 @@ exclude_patterns = [
 extensions = [
     "sphinx_togglebutton",
     "sphinx_copybutton",
-    "myst_parser",
+    "myst_nb",
     "sphinx_design",
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
@@ -39,6 +39,9 @@ myst_enable_extensions = [
     "linkify",
 ]
 myst_url_schemes = ["mailto", "http", "https"]
+
+## MyST-NB ----------------------------
+nb_execution_mode = "off"
 
 ## ablog ------------------------------
 blog_baseurl = "https://pyday.oriolabrilpla.cat"
