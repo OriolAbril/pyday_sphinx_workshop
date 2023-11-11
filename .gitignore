@@ -1,0 +1,8 @@
+build/
+gettext/
+jupyter_execute/
+locales/**/*.mo
+.ipynb_checkpoints
+.virtual_documents
+.DS_Store
+Thumbs.db
