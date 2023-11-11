@@ -1,0 +1,14 @@
+{% set add_comments_script = (meta is defined and meta is not none
+and 'html_theme.comments' in meta) %}
+
+{% if add_comments_script %}
+<!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="{{ github_user }}/{{ github_repo }}"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+{% endif %}

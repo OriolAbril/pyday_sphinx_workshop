@@ -9,6 +9,7 @@ language = os.environ.get("WEBSITE_LANGUAGE", "en")
 locale_dirs = ["locales"]
 gettext_uuid = True
 gettext_compact = False
+templates_path = ["_templates"]
 
 exclude_patterns = [
     ".DS_Store",
@@ -49,7 +50,7 @@ myst_url_schemes = ["mailto", "http", "https"]
 nb_execution_mode = "off"
 
 ## ablog ------------------------------
-blog_baseurl = "https://pyday.oriolabrilpla.cat"
+blog_baseurl = f"https://pyday.oriolabrilpla.cat/{language}"
 blog_path = "blog"
 post_show_prev_next = False
 fontawesome_included = True
@@ -70,6 +71,7 @@ html_theme_options = {
     "home_page_in_toc": True,
     "use_edit_page_button": False,
     "use_issues_button": False,
+    "article_footer_items": "utterances.html",
     "icon_links": [
         {
             "name": "GitHub",

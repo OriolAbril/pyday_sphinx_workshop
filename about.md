@@ -1,3 +1,7 @@
+---
+html_theme.comments: true
+---
+
 # About me
 
 My name is Oriol Abril Pla, I am one of the maintainers of ArviZ and PyMC,

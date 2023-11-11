@@ -1,3 +1,7 @@
+---
+html_theme.comments: true
+---
+
 # Sample blogpost
 
 :::{post} 5 Nov, 2023
