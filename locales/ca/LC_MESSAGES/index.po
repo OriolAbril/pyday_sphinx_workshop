@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Oriol Abril Pla
+# This file is distributed under the same license as the Personal website
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Personal website \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-08 16:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ca\n"
+"Language-Team: ca <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../index.md:24
+msgid "GitHub"
+msgstr ""
+
+#: ../index.md:24
+msgid "Mastodon"
+msgstr ""
+
+#: ../index.md:24
+msgid "Orcid"
+msgstr ""
+
+#: ../index.md:24
+msgid "External links"
+msgstr ""
+
+#: ../index.md:5 77d8b911edbb46179682f57816289313
+msgid "A personal website example"
+msgstr "Un exemple de pàgina web personal"
+
+#: ../index.md:7 565d51ac00af4683856e2e8b5af5f563
+msgid ""
+"Hello, this is a personal website example, built with Sphinx, MyST "
+"markdown and sphinx-book-theme."
+msgstr ""
+"Bones, això és un exemple de pàgina web personal, creada amb Sphinx, MyST, "
+"markdown i el tema sphinx-book-theme"
+
+#: ../index.md:10 f7b45d9cf69b42db84dd2d2fdafcba5d
+msgid "Why would anyone build their personal website with Sphinx?"
+msgstr "Perquè faria ningú la seva pàgina web personal amb Sphinx?"
+
+#: ../index.md:11 f65397ef4e5d49b98bc3d1b9090f6de1
+msgid ""
+"There are two main reasons: first is it can, and second is most Python "
+"projects (including python itself) use Sphinx, so you don't need to learn"
+" yet another tool/framework for your blog. Everything you learn "
+"contributing to Python project docs will be useful to your website, and "
+"everything you learn setting your website will be useful when "
+"contributing to OSS docs."
+msgstr ""
+"Principalment per dos motius: primer perquè és possible, i segon perquè la majoria "
+"de projectes de Python (Python mateix inclòs) utilitzen Sphinx, per tant no cal "
+"aprendre cap eina/entorn de treball per al teu blog. Tot el que aprenguis "
+"contribuint a la documentació de projectes de Python et servirà també per la teva web, "
+"i tot el que aprenguis generant la teva web et serà útil quan contribueixis a "
+"documentació de programari lliure."
+

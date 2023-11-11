@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Oriol Abril Pla
+# This file is distributed under the same license as the Personal website
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Personal website \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-08 16:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ca\n"
+"Language-Team: ca <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../blog/posts/2023/notebook.ipynb:10002 29a3ebc503404f4592bbabac77d56667
+msgid "A notebook post"
+msgstr ""
+
+#: ../blog/posts/2023/notebook.ipynb:10010 0bad125d8a1a4f439ce51d15e3f38656
+msgid ""
+"This is a notebook, where using MyST-NB we can also use not only Markdown"
+" as in regular notebooks but all of MyST. Thus, we can use any sphinx "
+"role or directive, including the post directive."
+msgstr ""
+
+#: ../blog/posts/2023/notebook.ipynb:30002 3e570c28e9f941f1bd62ba2d2886a9d7
+msgid ""
+"This means that among other things, all code and embedded outputs in the "
+"notebook will be rendered in the blog. No pre-processing on our side, "
+"we'll simply save this `.ipynb` file containing the post directive as "
+"we'd do with any other post."
+msgstr ""
+
+#: ../blog/posts/2023/notebook.ipynb:50002 0312e8d21ace40eeb81369bc8802e1e6
+msgid ""
+"And the theme we use is built on top of the `pydata-sphinx-theme`, so the"
+" same HTML representations you get on a notebook you generally get on the"
+" website too, no tricks needed. That goes for pandas dataframes but also "
+"for not so popular and well known objects like xarray datasets:"
+msgstr ""
+

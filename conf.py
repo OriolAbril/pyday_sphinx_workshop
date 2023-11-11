@@ -1,9 +1,14 @@
 """Sphinx configuration file"""
+import os
 
 # General configuration ------------------------------
 project = "Personal website"
 author = "Oriol Abril Pla"
 copyright = f"2023, {author}"
+language = os.environ.get("WEBSITE_LANGUAGE", "en")
+locale_dirs = ["locales"]
+gettext_uuid = True
+gettext_compact = False
 
 exclude_patterns = [
     ".DS_Store",
@@ -92,6 +97,14 @@ html_theme_options = {
             "type": "fontawesome",
         },
     ],
+    "article_header_start": [
+        "toggle-primary-sidebar",
+        "version-switcher"
+    ],
+    "switcher": {
+        "json_url": "https://raw.githubusercontent.com/OriolAbril/pyday_sphinx_workshop/main/switcher.json",
+        "version_match": language,
+    },
 }
 ablog_collections = ("author", "category", "tag")
 blog_sidebar = [

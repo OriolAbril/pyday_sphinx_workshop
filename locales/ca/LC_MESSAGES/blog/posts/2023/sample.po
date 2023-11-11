@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Oriol Abril Pla
+# This file is distributed under the same license as the Personal website
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Personal website \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-08 16:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ca\n"
+"Language-Team: ca <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../blog/posts/2023/sample.md:1 3804a16cd78d44748b065c8bd63851d7
+msgid "Sample blogpost"
+msgstr "Entrada de mostra al blog"
+
+#: ../blog/posts/2023/sample.md:9 5ae710368b0b41f89b161974ceae1deb
+msgid ""
+"This is a sample blogpost that will be used to populate tag and category "
+"fields for the blog generator. At the same time, we can also use it to "
+"showcase some of its capabilities already at this point."
+msgstr ""
+"Això és una entrada de mostra al blog que serveix per afegir contingut als tags i a les "
+"categories del blog. Alhora, també la farem servir com a exemple del que pot fer el blog "
+"de moment."
+
+#: ../blog/posts/2023/sample.md:13 52a82cbf328a43acb3cdea6757d75cfb
+msgid "Markdown support"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:14 00e395f271bd42ebae6d0a668e54a693
+msgid ""
+"Posts like this one can be written in markdown, and all its main features"
+" are supported"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:16 08e0597fae3f497a93c0662214444450
+msgid "lists"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:17 a19856e5761a48f8b9e79c86fc0331c5
+msgid "tables"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 89a060b3af814b1a8db3a154e8fb4a13
+msgid "index"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 5d42eb3467834216b24dcd1a92e8bc5d
+msgid "metadata"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 3941471a670e42d49662a70c7ad154e1
+msgid "data"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 89c9a95167c74a4d8e1cc13b358e9e1c
+msgid "0"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 2cad5f91f2754727b0761dbfe78b2723
+#: 7020da400fd74bfd828e2c4bb96087de c38593aeb7e5498d9ab0499debf44689
+msgid "A"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 febb9b09a5a7494dad761ed3ca31a9ea
+msgid "2.3"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 11815e4ed12e48bd820341ba7f381b63
+msgid "1"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 7ebab32777db4a8fb3114f1176b38c5e
+msgid "B"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 e1482d5ee15e49adac823dad1df20362
+msgid "4.5"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 8699f273de4c418e8021f8cdeb4c2dbd
+msgid "2"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 5147cf44b8f44257860b06c1f263c865
+msgid "3.4"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 9bb88190fcb44492bd152d1c134e3c6a
+msgid "3"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 54975dffafc1438d84324225ff7b7be9
+msgid "9.7"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:26 c1a1acb3fa874b8db27aad93505a787f
+msgid "code blocks"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:32 c5e68f53c309419b8729d93e500be5b5
+msgid "links and images"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:33 ac9f299bf48249f2ae800f85b4dcd6ac
+msgid "and more"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:35 3bbc8a880f864835aa851706602c38f7
+msgid "MyST"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:36 e9427e9f04ce45d5994594723b370ffc
+msgid ""
+"In fact, markdown support is available because we use the myst-parser "
+"extension, so what we really have is myst support, with myst being a "
+"superset of markdown. We can use sphinx roles and directives from "
+"markdown. As we have set up the intersphinx extension too, we can use "
+"cross-references:"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 0f137aba5f5b4e128f0f4bff86e34153
+msgid "source"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 a3555a1c16084ad9b159c79cb4d16ab8
+msgid "rendered"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 681ceb57422246b1a4a68f005f0f4e9d
+msgid "``{func}`numpy.einsum` ``"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 1c774fe13af94811bffd69d3d7ebfbd3
+msgid "{func}`numpy.einsum`"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 ece688b18d45440d90b3f764052b2f59
+msgid "``{class}`str` ``"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 7b1c951ffe00414f921e7173b4efa169
+msgid "{class}`str`"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 c4309ec3b7fa4a14a1c3470d10d6e97b
+msgid "``{term}`hashable` ``"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:3 dfa563a9deba4fba9f4956025a6c189e
+msgid "{term}`hashable`"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:46 9c888616138f4702b9273fb5641f0b79
+msgid "We also have math support:"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:48 eb6796c30ecf499ca69841212ed21a51
+msgid "\\hat{y} \\sim \\mathcal{N}(\\mu, \\sigma^2)"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:50 1e64f7f0248340269b62c7ae6193b3c3
+msgid "and use of any directive, like admonitions or tabs (from `sphinx-design`):"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md 9c7b864c528943b7ac1181684f0f5e31
+msgid "Source"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md d8ccf6f65ed74303b2333e2519e1f45c
+msgid "Rendered"
+msgstr ""
+
+#: ../blog/posts/2023/sample.md:64 939530ae916549489ac6697e080bc7ac
+msgid "This is a note admonition"
+msgstr ""
+

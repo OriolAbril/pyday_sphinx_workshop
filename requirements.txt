@@ -7,3 +7,4 @@ sphinx-design
 sphinx-notfound-page
 ablog>=0.11
 myst-nb>=1.0.0dev0
+sphinx-intl

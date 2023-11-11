@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Oriol Abril Pla
+# This file is distributed under the same license as the Personal website
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Personal website \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-08 16:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ca\n"
+"Language-Team: ca <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../404.md:1 3f4a9696cab747148a577de58a6bb7c8
+msgid "Page not found"
+msgstr ""
+
+#: ../404.md:3 0b62e6b652514d63883864c80a60d5cf
+msgid "The page you requested is not available."
+msgstr ""
+
+#: ../404.md:5 1869ced51595401584e4fe76d11e2d79
+msgid ""
+"Try browsing through the left sidebar or use the search bar (top right of"
+" the page) to continue navigating."
+msgstr ""
+

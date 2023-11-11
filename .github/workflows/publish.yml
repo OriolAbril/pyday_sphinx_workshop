@@ -39,7 +39,10 @@ jobs:
       - name: Build project docs
         run: |
           pip install -r requirements.txt
-          sphinx-build . build -b html
+          WEBSITE_LANGUAGE=en sphinx-build . build/en -b html
+          WEBSITE_LANGUAGE=ca sphinx-build . build/ca -b html
+          cp index.html build/index.html
+          cp 404.html build/404.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
